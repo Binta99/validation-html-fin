@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 ;
+  } 
+  
+   body{
+      font-size: 16px;
+      margin: 0px;
+      padding: 0px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      scrollbar-width: none;
+      overflow-x: hidden;
+      width: 100%;
+   }
+
+   header{
+    background-image: url(1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+   }
+
+   .aldiv1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: black;
+      width: 100%;
+      padding:  20px 20px 20px 260px;
+   }
+
+   nav .links0 a{
+      margin-left: 100px;
+   }
+
+   nav  a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size:small;
+    line-height: normal;
+    
+   
+   }
+
+   .aldiv{
+    color: rgb(49, 47, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    padding-left: 200px;
+
+   }
+   .aldiv .left{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      
+     
+   }
+   .aldiv .left .lien1 p{
+      text-align: center;
+      margin: auto;
+   }
+
+   .aldiv .right{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: 100px;
+   }
+
+    .imgrelative img{
+      width: 150px;
+      height: 140px;
+      position: relative; 
+      left: 100px;
+      bottom: 140px;
+   }
+   .aldiv .lien1{
+      padding: 30px;
+      border-left: 1px solid rgb(224, 223, 223);
+      height: 70px;
+
+   }
+
+    .aldiv .lien1 p{
+     font-weight: bold;
+     font-size: large;
+
+   } 
+   .image {
+     
+   }
+
+   .image img{
+      margin-bottom: 80px;
+      width: 100px;
+      height: 100px;
+   }
+   .colums{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+   }
+   .colums .textes{
+      text-align: center;
+      color: white;
+   }
+
+   .colums .textes h1{
+      font-size: 60px;
+      margin-bottom: 15px;
+   }
+   .colums .textes p{
+      color: grey;
+   }
+   .textes .buton{
+      background-color: none;
+   }
+
+   .textes .buton button{
+      margin-top: 80px;
+      width: 180px;
+      height: 60px;
+   }
